@@ -1,0 +1,22 @@
+git 相关命令
+git clone git@github.com:zjjzjj123/git.git
+git config --global user.name zjjzjj123
+git config --global user.email 283486907@qq.com
+git push -u origin master
+需要建立一个repository 然后通过config之后才能push最好是先建立 然后clone 再push
+git init
+git add filename
+git commit -m '**'
+git checkout -- filename
+git reset HEAD filename
+git reset --hard HEAD^
+git log
+git status
+git branch
+git diff filename 
+git rm filename
+git branch branchname
+git chenckout branchname
+git log --graph
+git merge branchname
+git merge --on-ff -m "merge with --on-ff" branchname
