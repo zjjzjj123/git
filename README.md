@@ -5,3 +5,4 @@ this is master
 creating f1
 this is new f1
 bug is done 
+收藏有关git操作
